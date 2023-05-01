@@ -9,7 +9,7 @@ builder.Services.AddDbContext<CrudExamen.Models.ClienteContext>(opt => opt.UseSq
 // Add services to the container.
 // Add services to the container.
 
-var dummy = 0;
+var dummy = 10;
 
 builder.Services.AddControllersWithViews();
 
